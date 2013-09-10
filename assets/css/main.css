@@ -492,16 +492,6 @@ h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{margin-left:12px;font-size
 	font-size:26px;
 	}
 
-.service li {
-    display: block;
-    padding: 7px 0px;
-    border-bottom: 1px solid #bfbfbf;
-    font-size:14px;
-    margin-right:15px;
-}
-.service li:last-child {
-    border: none;
-}
 
 /*Contact Page*/
 
@@ -512,46 +502,6 @@ h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{margin-left:12px;font-size
 }
 
 .contact-area form{overflow: hidden;}
-
-
-.address { text-align: left; font-size: 18px; line-height: 25px; }
-.address p { margin: 25px 0; }
-.address form { margin: 30px 0 70px; }
-
-input[type=submit] {
-	font-size: 18px;
-	color: #fff;
-	font-weight:300;
-	border: none;
-	padding: 15px 38px 18px 36px;
-	font-family:'Open Sans', sans-serif;
-}
-
-input[type=text], textarea {
-	background: #fff;
-	font-size: 18px;
-	font-family:'Open Sans', sans-serif;
-	display: block;
-	width: 100%;
-	border: none;
-	box-shadow: none;
-	height: 60px;
-	line-height: 58px;
-	padding: 0;
-	text-indent: 18px;
-	margin: 0 0 18px;
-}
-textarea {
-	line-height: 24px;
-	padding: 18px;
-	width: 100%;
-	text-indent: 0;	
-}
-.textarea-container { margin: 0 18px; }
-.textarea-container textarea { margin-left: -18px; }
-#contact textarea { width: 100%; height: 100px; }
-
-
 
 /* MEDIA STYLES */
 
