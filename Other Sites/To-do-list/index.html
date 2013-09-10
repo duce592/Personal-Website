@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html><head>
+	<title>To Do List</title>
+	
+	<!-- Latest compiled and minified bootstrap CSS -->
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+	
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+	
+	<!-- My Styling -->
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	
+	<!-- Meta Data -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+</head><body>
+
+	<div class="navbar navbar-inverse" id="header">
+		<div class="container">
+			<div class="navbar-inverse" id="toDoNav">
+				<div class="siteLink">
+					<a href="/Users/devinpike/Code/D's/Personal-Website/index.html"> <strong>Personal Site</strong> </a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="container" id="mainContainer">
+		<div class="row">
+			<div class="col-lg-6 col-lg-offset-3" id="formMain">
+				<div id="formTitle"><h2>To Do List</h2></div>
+				<div id="formContent">
+			        	<input type="text" class="form-control" name="listItem" placeholder="Type your List Item here!">
+			        	<button type="button" class="btn btn-primary form-control">Add!</button>
+			        <div id="listToPush"></div> <!-- #item gets inserted into #listToPush from script.js -->
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Javascript
+	================================================== -->
+	<!-- Placed at the end of the document so the page loads faster -->
+	<script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="assets/js/script.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script> 
+	<!-- Ask Q if this ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ is over writeing the shit above -->
+
+</body></html>
