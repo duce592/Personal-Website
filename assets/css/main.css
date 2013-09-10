@@ -1,18 +1,5 @@
 @import url("colors/green.css"); /* COLOR IMPORT */
 
-/*!
- * TRY - Retina Ready Theme
- *
- * Copyright 2013 
- * Licensed under the Apache License v2.0
- * http://www.apache.org/licenses/LICENSE-2.0
- * Created by: Carlos Alvarez
- * URL: http://www.basicoh.com
- * Designed and built based on Twitter Bootstrap.
- */
-
-/********** MAIN CONFIGURATION **********/
-
 
 
 /* GOOGLE FONTS*/
@@ -23,8 +10,18 @@
 
 
 /* BASIC CONFIGURATION */
-body{background-color:#f2f2f2;font-family:'Open Sans',sans-serif;font-size:14px;color:#f2f2f2;}
-h2,h3,h4,h5,h6{font-family:'Open Sans',sans-serif;color:#666;}
+body {
+	background-color:#f2f2f2;
+	font-family:'Open Sans',sans-serif;
+	font-size:14px;
+	color:#f2f2f2;
+}
+
+h2,h3,h4,h5,h6 {
+	font-family:'Open Sans',sans-serif;
+	color:#666;
+}
+
 h1 {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight:500;
@@ -46,118 +43,6 @@ p{
 a{text-decoration:none;}
 a:hover{text-decoration:none;}
 h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{margin-left:12px;font-size:15px;font-style:italic;color:#000;line-height:5px;letter-spacing:0}
-
-
-/********** BOOTSTRAP MODIFICATIONS **********/
-/* Navbar Tweaks */
-
-.navbar .brand {
-  display: block;
-  float: right;
-  padding: 0px 20px 0px;
-  margin-left: -20px;
-  font-size: 20px;
-  font-weight: 200;
-  color: #777777;
-  text-shadow: 0 1px 0 #ffffff;
-}
-
-.navbar-inverse .navbar-inner {
-    background-color: #f2f2f2;
-    background-repeat: repeat-x;
-	border-color: transparent;
-	background-image: none;
-	padding-bottom:15px;
-	padding-top:15px;
-}
-
-.navbar-inverse .brand,
-.navbar-inverse .nav > li > a {
-  color: #151515;
-  text-shadow: none;
-  text-transform:uppercase;
-  font-weight:500;
-}
-
-.navbar-inverse .brand:hover,
-.navbar-inverse .nav > li > a:hover,
-.navbar-inverse .brand:focus,
-.navbar-inverse .nav > li > a:focus {
-  color: #ffffff;
-}
-
-.navbar-inverse .brand {
-  color: #151515;
-}
-
-.navbar-inverse .navbar-text {
-  color: #999999;
-}
-
-.navbar-inverse .nav > li > a:focus,
-.navbar-inverse .nav > li > a:hover {
-  background-color: transparent;
-}
-
-.navbar-inverse .nav .active > a,
-.navbar-inverse .nav .active > a:hover,
-.navbar-inverse .nav .active > a:focus {
-  color: #fff;
-}
-
-.navbar-inverse .navbar-link {
-  color: #999999;
-}
-
-
-.navbar-fixed-top .navbar-inner,
-.navbar-static-top .navbar-inner {
-  -webkit-box-shadow: none;
-     -moz-box-shadow: none;
-          box-shadow: none;
-        
-}
-.navbar .nav > .active > a,
-.navbar .nav > .active > a:hover,
-.navbar .nav > .active > a:focus {
-  color: #f2f2f2;
-  text-decoration: none;
-  -webkit-box-shadow: none;
-     -moz-box-shadow: none;
-          box-shadow: none;
-}
-
-.dropdown-menu > li > a:hover,
-.dropdown-menu > li > a:focus,
-.dropdown-submenu:hover > a,
-.dropdown-submenu:focus > a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
-.navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
-.navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
-  color: #ffffff;
-}
-
-
-.dropdown-menu > .active > a,
-.dropdown-menu > .active > a:hover,
-.dropdown-menu > .active > a:focus {
-  color: #ffffff;
-  text-decoration: none;
-    background-repeat: repeat-x;
-	outline: 0;
-}
-
-/* HR Tweak */
-hr {
-  margin: 20px 0;
-  border: 0;
-  border-top: 1px dashed #eeeeee;
-  border-bottom: 1px dashed #bfbfbf;
-}
 
 
 /* Buttons Styles */
@@ -310,21 +195,25 @@ hr {
 
 /* HEADERWRAP */
 #headerwrap {
-	background: url(../img/floor-wood.jpg) no-repeat center center fixed; 
+	background: url(../img/Hipster-Background.jpg) no-repeat center center fixed; 
 	text-align: left;
 	padding-top:0px;
-	max-height:550px;
+	height: 550px;
     background-size: cover;
+    -webkit-filter: grayscale(1);
 }
 
-#headerwrap h1 {
+#headerwrap h1 bold{
 	color:#fff;
-	font-weight:lighter;
 	font-size:70px;
 	line-height:65px;
 	margin-left:10px;
 	padding-top:20px;
 	margin-top:40px;
+}
+
+#headerwrap h1 {
+	
 }
 
 #headerwrap bold {
@@ -707,4 +596,9 @@ textarea {
     max-width: 90px;
     max-height: 90px;
     
+}
+
+.icon-angle-down {
+	font-size: 50px;
+	color: #666;
 }
