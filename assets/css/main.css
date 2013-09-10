@@ -210,14 +210,6 @@ h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{margin-left:12px;font-size
 	margin-left:10px;
 	padding-top:20px;
 	margin-top:40px;
-}
-
-#headerwrap h1 {
-	
-}
-
-#headerwrap bold {
-	color:#fff;
 	font-weight:800;
 }
 
@@ -432,76 +424,6 @@ h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{margin-left:12px;font-size
 	text-align:center
 }
 
-
-/* PRICING TABLE */
-
-.pricehead {
-	padding:0px;
-	margin:0px;
-	background-color:#151515;
-	color:#f2f2f2;
-	text-align:center;
-}
-
-
-.pricehead p {
-	color:#6b6b6b;
-	font-size:14px;
-	margin-bottom:0px;
-	padding-bottom:15px;
-	font-weight:bold
-}
-
-.pricehead h3 {
-	font-size:25px;
-	padding-bottom:25px;
-	color:#f2f2f2;
-	font-family:'Open Sans Condensed', sans-serif;
-}
-
-.pricehead h1 {
-	font-family:'Open Sans Condensed', sans-serif;
-	font-size:60px;
-	margin-bottom:0px;
-	padding-bottom:35px;
-	
-}
-
-.priceBox {
-	position: inherit;
-	margin-left: 0px;
-	background-color: #d7d8d8;
-	cursor: pointer;
-}
-
-.priceBox img{
-	margin:15px;
-	text-align:center;
-}
-
-.price2Box {
-	padding-top:10px;
-	padding-bottom:5px;
-	margin: 0 0px 10px 0px;
-	background-color:#676767;
-	color:#fff;
-}
-
-.price2Box p {
-	font-family:'Open Sans Condensed', sans-serif;
-	font-size:26px;
-	}
-
-
-/*Contact Page*/
-
-.contact-area {
-	width: 100%;
-	overflow: hidden;
-	color: #F3F3F3;
-}
-
-.contact-area form{overflow: hidden;}
 
 /* MEDIA STYLES */
 
