@@ -1,0 +1,84 @@
+/*!
+ * Designed and built based on Twitter Bootstrap.
+ *                                              /
+
+/********** MAIN CONFIGURATION **********/
+
+
+/* GOOGLE FONTS*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+
+/* BASIC CONFIGURATION */
+body{
+    background-color:#fff;
+    font-family:'Open Sans',sans-serif;
+    font-size:22px;
+    color:#6e778a;
+}
+
+#mainContainer {
+    margin-top:40px;
+} 
+
+#calculatorWrapper{ 
+    background:#d3d6dc;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+
+}
+
+#calculatorScreen{
+	height:30px;
+	margin-bottom:15px;
+    margin-top:20px;
+    text-align:right;
+    font-size:44px;
+    color:#6e778a;
+}
+
+#calculatorScreen h1 {
+    color:#6e778a;
+    font-size:56px;
+}
+
+
+#calculatorPad .row-fluid .span4, #calculatorPad .row-fluid .span8 {
+    background: #fff;
+    margin-top:2px;
+    margin-bottom:2px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+#calculatorPad .row-fluid .span4#clearButton {
+    background: #FF8C00;
+    color:#fff;
+
+}
+
+#calculatorPad2 .row-fluid .span12#subtractButton {
+    background: #fff;
+    margin-top:2px;
+    margin-bottom:2px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+#calculatorPad2 .row-fluid .span12#additionButton, #calculatorPad2 .row-fluid .span12#equalsButton {
+    background: #fff;
+    margin-top:2px;
+    margin-bottom:2px;
+    text-align: center;
+    padding-top: 29px;
+    padding-bottom: 25px;
+
+}
+
+
+
+
+
+
