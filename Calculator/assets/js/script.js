@@ -3,11 +3,19 @@ $(document).ready(function(){
 	var number = "";
     var newnumber = "";
     var operator = "";
+    var matches = "";
     var totaldiv = $("#calculatorScreen");
     totaldiv.text("0");
     
     $(".number").click(function(){
 		number += $.trim($(this).text());
+		totaldiv.text(number);
+    });
+    
+    $("#decimal").click(function(){
+		if (number.indexOf('.') == -1){
+			number += $.trim($(this).text());
+		}
 		totaldiv.text(number);
     });
     
@@ -26,15 +34,16 @@ $(document).ready(function(){
     
     $("#equalsButton").click(function(){
 		if (operator === "+"){
-			number = (parseInt(number, 10) + parseInt(newnumber,10)).toString(10);
+			number = (parseFloat(number) + parseFloat(newnumber)).toString();
 		} else if (operator === "-"){
-			number = (parseInt(newnumber, 10) - parseInt(number,10)).toString(10);
+			number = (parseFloat(newnumber) - parseFloat(number)).toString();
 		} else if (operator === "/"){
-			number = (parseInt(newnumber, 10) / parseInt(number,10)).toString(10);
+			number = (parseFloat(newnumber) / parseFloat(number)).toString();
 		} else if (operator === "*"){
-			number = (parseInt(newnumber, 10) * parseInt(number,10)).toString(10);
+			number = (parseFloat(newnumber) * parseFloat(number)).toString();
 		}
 		totaldiv.text(number);
+		number = "";
     });
     
 });
