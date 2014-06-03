@@ -1,0 +1,263 @@
+
+
+/* GOOGLE FONTS*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,800,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+
+
+/* BASIC CONFIGURATION */
+body {
+	background-color: #f2f2f2;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #f2f2f2;
+}
+
+h1,h2,h3,h5,h6 {
+	font-family: 'Open Sans', sans-serif;
+	color: #444;
+}
+
+h2 {
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+h3 {
+	margin-bottom: 1px;
+}
+
+h5 {
+	text-align: center;
+}
+
+p {
+	margin-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+/********** WRAP CONFIGURATIONS **********/
+
+
+/* headerwrap */
+#headerwrap {
+	background: url(../img/Hipster-Background.jpg) no-repeat center fixed; 
+	text-align: left;
+	padding-top: 0px;
+	height: 586px;
+    background-size: cover;
+    -webkit-filter: grayscale(1);
+}
+
+#headerwrap h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #fff;
+	font-size: 50px;
+	line-height: 40px;
+	font-weight: 500;
+}
+
+#headerwrap h1 bold{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #fff;
+	font-size: 70px;
+	line-height: 65px;
+	margin-left: 10px;
+	padding-top: 20px;
+	margin-top: 40px;
+	font-weight: 800;
+}
+
+#headerwrap p {
+	color: #fff;
+	font-size: 18px;
+	line-height: 25px;
+	margin-left: 10px;
+}
+
+#headingHero {
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+
+/* WELCOMEWRAP */
+#welcomewrap {
+	background-color: #a94442;
+	padding: 30px 0px;
+	text-align: center
+}
+
+#welcomewrap h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #f2f2f2;
+	font-size: 26px;
+}
+
+.icon-angle-down {
+	font-size: 50px;
+	color: #444;
+}
+
+
+/* Projects Configuration */
+.projects {
+	padding-top: 100px;
+    padding-bottom: 100px;
+	text-align: center;
+    color: #444;
+}
+
+.projects i {
+    font-size: 80px;
+}
+
+.projects .span4 {
+	margin-top: 15px;
+}
+
+
+/* bottom description in projects */
+.desc {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	padding: 10px;
+	color: #fff;
+	background-color: #a94442;
+}
+
+.desc:hover {
+	color: #444;
+	background-color: #fff;
+	transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+}
+
+.desc h5 {
+	font-size: 17px;
+	color: #444;
+}
+
+.desc:hover h5 {
+	color: #444;
+}
+
+.desc p {
+	font-size: 14px;
+}
+
+
+/* TESTIMONIALS WRAP*/
+#testimonials {
+	background-color: #fff;
+	padding: 30px 5px 20px 5px;
+	text-align: center;
+}
+
+#testimonials h3 {
+	color: #444;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 300;
+}
+
+#testimonials p {
+	color: #444;
+	
+}
+
+
+/* QUOTE WRAP*/
+#backToTop {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #a94442;
+}
+
+
+/* Buttons Styles */
+.button-backToTop a {
+	text-decoration: none;
+	float: none;
+	display: block;
+	color: #ffffff;
+	font-size: 14px;
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 500;
+	border: 2px;
+	border-style: solid;
+	padding: 8px 30px 5px 30px;
+	transition: all .5s ease-in;
+    -webkit-transition: all .5s ease-in;
+	border-color: #fff;
+	text-transform: uppercase;
+	margin-left: 7px;
+	margin-right: 7px;
+	background-color: transparent;
+	text-align: center;
+}
+
+.button-backToTop a:hover {
+	background-color: #ffffff;
+	text-decoration: none;
+	float: none;
+	display: block;
+	color: #a94442;
+	font-size: 14px;
+	font-weight: 500;
+	font-family: 'Open Sans',sans-serif;
+	padding: 8px 30px 5px 30px;
+	text-transform: uppercase;
+}
+
+
+/* COPYRIGHT WRAP*/
+#copyright {
+	background-color: #444;
+	color: #f2f2f2;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	height: 170px;
+}
+
+#copyright p {
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+#copyright h2 {
+	color: #f2f2f2;
+}
+
+#copyright  h3,h5 {
+	color: #f2f2f2;
+}
+
+#boBen h5 {
+	text-align: justify;
+	margin-bottom: 0px;
+}
+
+#boBen p {
+	font-size: 15px;
+	text-align: right;
+	font-style: italic;
+}
+
+#copyRightLogo {
+	padding-top: 15px;
+	margin-left: 0px;
+}
+
+
+

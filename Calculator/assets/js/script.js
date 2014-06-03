@@ -1,49 +1,54 @@
 $(document).ready(function(){
   
-	var number = "";
-    var newnumber = "";
+	var num = "";
+    var newnum = "";
     var operator = "";
-    var matches = "";
     var totaldiv = $("#calculatorScreen");
     totaldiv.text("0");
     
+
     $(".number").click(function(){
-		number += $.trim($(this).text());
-		totaldiv.text(number);
-    });
-    
-    $("#decimal").click(function(){
-		if (number.indexOf('.') == -1){
-			number += $.trim($(this).text());
+    	if (num.length <= 7){
+    		num += $.trim($(this).text());
+			totaldiv.text(num);
+    	} else {
+    		alert("To many characters!")
 		}
-		totaldiv.text(number);
     });
     
+
     $(".operator").click(function(){
 		operator = $.trim($(this).text());
-		newnumber = number;
-		number = "";
+		newnum = num;
+		num = "";
 		totaldiv.text("0");
     });
     
+
     $("#clearButton").click(function(){
-		number = "";
+		num = "";
 		totaldiv.text("0");
-		newnumber = "";
+		newnum = "";
     });
     
+
     $("#equalsButton").click(function(){
 		if (operator === "+"){
-			number = (parseFloat(number) + parseFloat(newnumber)).toString();
+			num = (parseFloat(newnum) + parseFloat(num));
 		} else if (operator === "-"){
-			number = (parseFloat(newnumber) - parseFloat(number)).toString();
+			num = (parseFloat(newnum) - parseFloat(num));
 		} else if (operator === "/"){
-			number = (parseFloat(newnumber) / parseFloat(number)).toString();
+			num = (parseFloat(newnum) / parseFloat(num));
 		} else if (operator === "*"){
-			number = (parseFloat(newnumber) * parseFloat(number)).toString();
-		}
-		totaldiv.text(number);
-		number = "";
+			num = (parseFloat(newnum) * parseFloat(num));
+		};
+
+		if (num.toString().indexOf('.') != -1){
+			num = num.toFixed(2);
+		};
+			totaldiv.text(num);
+			
     });
     
+
 });

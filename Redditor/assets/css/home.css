@@ -1,0 +1,131 @@
+/* GOOGLE FONTS */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,800,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+@import url(http://fonts.googleapis.com/css?family=Sanchez);
+
+
+html {
+	min-height: 100%;
+}
+
+body {
+	background-color:#424E58;
+	font-family:'Open Sans',sans-serif;
+	font-size:14px;
+	color:#f2f2f2;
+	width: 100%;
+	overflow: auto;
+}
+
+#tabLandscape {
+	background-color: #5f99cf;
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	width: 30%;
+}
+
+#redditRow {
+	background-color: #293036;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height:100px;
+	width: 30%;
+}
+
+#alienLogo{
+	height: 70px;
+	margin-top: 15px;
+}
+
+#alienLogo img {
+	height: 70px;
+	width: 70px;
+}
+
+#reddit {
+	margin-top: 25px;
+}
+
+#reddit p {
+	font-size: 40px;
+	font-family: 'Sanchez', serif;
+	margin-bottom: 0px;
+	margin-top:0px;
+}
+
+#posting {
+	background-color: #637482;
+	position: fixed;
+	top: 100px;
+	bottom: 0px;
+	left: 0px;
+	width: 30%;
+	overflow: auto;
+}
+
+#posting .row {
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#posting .clickable:hover {
+	background-color: #424E58;
+}
+
+/* Darken Class used to shade the .clickable divs on click*/
+
+#posting .darken {
+	background-color: #323B42;
+}
+
+#posting .darken:hover {
+	background-color: #323B42;
+}
+
+#clickImg {
+	height: 70px;
+}
+
+#clickImg img {
+	margin-top: auto;
+	margin-bottom: auto;
+	height: 70px;
+	width: 70px;
+}
+
+#postImg {
+	height: 70px;
+}
+
+#postImg img{
+	height: 70px;
+	width: 70px;
+}
+
+
+
+
+
+#contentLandscape {
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	width: 70%;
+	overflow: auto;
+}
+
+#contentLandscape iframe {
+	border: 0px;
+	margin: auto;
+	height: 100%;
+	width: 100%;
+	
+}
+
